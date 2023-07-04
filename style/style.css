@@ -1,0 +1,106 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: small;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: white;
+  font-size: 0.9em;
+}
+
+body {
+  background-color: whitesmoke;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container {
+  margin: 2% 35%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  height: 100%;
+  width: 20vh;
+}
+
+.text {
+  margin: 1em;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+header {
+  margin-top: 4em;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  transform: scale(0.8, 2);
+}
+
+.options {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 1% 4%;
+}
+
+.single-option {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 1%;
+}
+
+.name-price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.1em;
+}
+
+.word1 {
+  line-height: 1;
+  letter-spacing: 10pt;
+  font-weight: 800;
+}
+
+.word2 {
+  letter-spacing: 5pt;
+  line-height: 1;
+  font-size: 3em;
+  padding: 0;
+  font-weight: 700;
+  padding-bottom: 0.7em;
+  text-overflow: ellipsis;
+  color: gold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.title {
+  background: url("/images/background1.jpg") no-repeat black;
+  background-position: 50%;
+  background-size: cover;
+  padding: 1em;
+  padding-top: 0.3em;
+  color: black;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.title2 {
+  background: url("/images/background2.jpg") no-repeat black;
+  background-position: 50%;
+  background-size: cover;
+  padding: 1em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
