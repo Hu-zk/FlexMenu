@@ -25,13 +25,25 @@ body {
   justify-content: space-between;
 }
 
-img {
+#side {
   height: 100%;
-  width: 20vh;
+  width: 23vh;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+h1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.7em;
 }
 
 .text {
-  margin: 1em;
+  margin: 2em;
   display: flex;
   flex-flow: column;
   justify-content: space-around;
@@ -83,9 +95,6 @@ header {
 }
 
 .title {
-  background: url("/images/background1.jpg") no-repeat black;
-  background-position: 50%;
-  background-size: cover;
   padding: 1em;
   padding-top: 0.3em;
   color: black;
@@ -95,9 +104,6 @@ header {
 }
 
 .title2 {
-  background: url("/images/background2.jpg") no-repeat black;
-  background-position: 50%;
-  background-size: cover;
   padding: 1em;
 }
 
